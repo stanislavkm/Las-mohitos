@@ -1131,7 +1131,7 @@ hr{
         overflow-y: hidden;
     }
     .home_section{
-        background: url('/images/mojito_phone.jpg')no-repeat 25% 75%;
+        background: url('/images/mojito_phone.webp')no-repeat 25% 75%;
         background-size: cover;
     }
     .home_wrapper{
@@ -1464,7 +1464,7 @@ hr{
 
 @media (max-width: 650px) {
     .home_section{
-        background: url('/images/mojito_phone.jpg')no-repeat 25% 70%;
+        background: url('/images/mojito_phone.webp')no-repeat 25% 70%;
         background-size: cover;
     }
     .home_wrapper {
@@ -1521,7 +1521,7 @@ hr{
 }
 @media (max-width: 580px) {
     .home_section{
-        background: url('/images/mojito_phone.jpg')no-repeat 25% 60%;
+        background: url('/images/mojito_phone.webp')no-repeat 25% 60%;
         background-size: cover;
     }
     .home_wrapper{
@@ -1619,7 +1619,7 @@ hr{
 }
 @media (max-width: 500px) {
     .home_section{
-        background: url('/images/mojito_phone.jpg')no-repeat 25% 85%;
+        background: url('/images/mojito_phone.webp')no-repeat 25% 85%;
         background-size: cover;
     }
     .food_section {
@@ -1750,7 +1750,7 @@ hr{
     /*  flex-direction: row-reverse;*/
     /*}*/
     .home_section{
-        background: url('/images/mojito_phone.jpg')no-repeat 45% 65%;
+        background: url('/images/mojito_phone.webp')no-repeat 45% 65%;
         background-size: cover;
     }
     .home_wrapper h1 {
