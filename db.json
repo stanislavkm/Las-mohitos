@@ -1,0 +1,78 @@
+{
+
+  "items": [
+        {
+          "imgUrl": "plov.jpg",
+          "name": "Плов, 280гр",
+          "bju": "117кккал / 100гр",
+          "desc": "Хороший и вкусный плов. ",
+          "price": 100,
+          "isReadonly": true,
+          "quantity": 1
+        },
+        {
+          "imgUrl": "pelmeni.jpg",
+          "name": "Пельмени, 320гр",
+          "bju": "103кккал / 100гр",
+          "desc": "Пельмени из лучшего мяса",
+          "price": 120,
+          "isReadonly": true,
+          "quantity": 1
+        },
+        {
+          "imgUrl": "borsh.jpg",
+          "name": "Борщ, 350гр",
+          "bju": "80кккал / 100гр",
+          "desc": "Лучший и наивкуснейший борщ.",
+          "price": 90,
+          "isReadonly": true,
+          "quantity": 1
+        },
+        {
+          "imgUrl": "golubcy.png",
+          "name": "Голубцы, 330гр",
+          "bju": "110кккал / 100гр",
+          "desc": "Классные голубцы",
+          "price": 145,
+          "isReadonly": true,
+          "quantity": 1
+        },
+        {
+          "imgUrl": "rolly.jpg",
+          "name": "Роллы, 190гр",
+          "bju": "74кккал / 100гр",
+          "desc": "Роллы из свежей рыбы",
+          "price": 230,
+          "isReadonly": true,
+          "quantity": 1
+        },
+        {
+          "imgUrl": "plov.jpg",
+          "name": "Плов6, 300гр",
+          "bju": "99кккал / 100гр",
+          "desc": "Хороший и вкусный плов. ",
+          "price": 160,
+          "isReadonly": true,
+          "quantity": 1
+        }
+      ],
+  "sectionTitles": ["Спецпредложения","Пицца","Пироги","Роллы","Десерты","Торты"],
+  "users": [
+    {
+      "phoneNumber": "89529529595",
+      "password": "qwerty"
+    },
+    {
+      "phoneNumber": "89239232323",
+      "password": "asdfg"
+    },
+    {
+      "phoneNumber": "87027027272",
+      "password": "zxcvb"
+    },
+    {
+      "phoneNumber": "87777777777",
+      "password": "12345"
+    }
+  ]
+}
