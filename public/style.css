@@ -213,7 +213,7 @@ a{
 .item{
     margin-bottom: 60px;
     width: 100%;
-    height: 450px;
+    height: 455px;
     background: #FFFFFF;
     box-shadow: 0 5px 17px 0 rgb(225, 225, 225);
     text-align: center;
@@ -228,6 +228,7 @@ a{
     margin: 5px 0;
     height: 200px;
     width: 200px;
+    object-fit: cover;
 }
 .item_info{
     margin: 0 auto;
@@ -275,7 +276,7 @@ a{
     font-size: 1.2em;
     align-items: center;
     height: 37px;
-    width: 100px ;
+    width: 120px ;
     text-align: center;
     border-radius: 10px;
     border: none;
@@ -590,6 +591,7 @@ iframe{
     padding: 10px;
 }
 .cartItem_desc{
+    align-items: center;
     display: flex;
     position: relative;
 }
@@ -639,7 +641,7 @@ hr{
 }
 .cartItem__text{
     text-align: left;
-    transform: translateX(5px);
+    transform: translateX(8px);
 }
 .cartItem img{
     height: 86px;
@@ -711,13 +713,14 @@ hr{
 .x-mark{
 }
 .make_order {
+    font-family: 'Oswald', sans-serif;
     background-color: #ffffff;
     box-shadow: 0 0 8px rgba(68, 112, 58, 0.5);
     color: #74a900;
     border: none;
-    font-size: 1rem;
+    font-size: 1.4rem;
     border-radius: 8px;
-    padding: 12px 20px;
+    padding: 10px 25px;
     margin-top: 2.5vh;
     margin-bottom: 3vh;
 }
@@ -767,10 +770,11 @@ hr{
 }
 .order_input{
     width: 300px;
-    padding: 10px 0;
-    font-family: "Montserrat Medium", sans-serif;
+    padding: 8px 0;
+    font-family: 'Oswald', sans-serif;
     border-radius: 6px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    letter-spacing: 1.5px;
     text-align:center;
     border: 1px solid #74a900;
     color: #74a900;
@@ -796,11 +800,11 @@ hr{
     text-align:center;
 }
 .select_type{
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 .radio_p{
-    font-family: "Montserrat Medium", sans-serif;
-    font-size: 1.2rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
     margin-bottom: 10px;
 }
 .radio_btns{
@@ -817,11 +821,11 @@ hr{
     display: none;
 }
 .form_radio_btn label {
-    font-family: "Montserrat Medium", sans-serif;
-    font-size: 1rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3rem;
     display: inline-block;
     cursor: pointer;
-    padding: 0px 20px;
+    padding: 2px 20px;
     line-height: 34px;
     color: #1a2e39;
     border: 1px solid #74a900;
@@ -1472,7 +1476,7 @@ hr{
     }
     .item{
         width: 70%;
-        height: 475px;
+        height: 480px;
     }
     .item_description {
         height: 210px;
@@ -1502,9 +1506,11 @@ hr{
         margin-left: 70px;
     }
     .cart{
+        border-radius: 0;
         width: 100%;
     }
     .order{
+        border-radius: 0;
         width: 100%;
     }
     .order_form{
@@ -1636,7 +1642,7 @@ hr{
     }
     .item_btn {
         height: 42px;
-        width: 120px;
+        width: 130px;
     }
     .item_controller {
         justify-content: space-around;
@@ -1696,7 +1702,7 @@ hr{
     }
     .item_btn{
         height: 44px;
-        width: 130px;
+        width: 140px;
     }
     iframe{
         width: 400px;
@@ -1781,7 +1787,7 @@ hr{
     }
     .item_btn{
         height: 40px;
-        width: 115px;
+        width: 145px;
     }
     footer{
         padding: 5px 10px 5px;
