@@ -150,7 +150,7 @@ a{
 /*--------------------------------------------------------------------------------*/
 
 .home_section{
-    background: url('/images/home_bg.jpg') no-repeat right center;
+    background: url('/images/home_bg.webp') no-repeat right center;
     background-size: cover;
     height: 100vh;
     width: 100%;
@@ -996,7 +996,7 @@ hr{
 }
 @media (max-width: 1390px) {
     .home_section {
-        background: url('/images/home_bg.jpg') no-repeat 25% 50%;
+        background: url('/images/home_bg.webp') no-repeat 25% 50%;
         background-size: cover;
     }
     .header_li{
@@ -1036,7 +1036,7 @@ hr{
 
 @media (max-width: 1240px) {
     .home_section {
-        background: url('/images/home_bg.jpg') no-repeat 45% 50%;
+        background: url('/images/home_bg.webp') no-repeat 45% 50%;
         background-size: cover;
     }
     header{
