@@ -10,7 +10,26 @@
           мы всегда стремимся создать праздник в будни.</p>
       </div>
     </section>
-
+    <section class="food_section bg_lime">
+      <h2>Почему мы</h2>
+      <div class="about_us">
+        <div class="about_us__item">
+          <div class="about_us__icon"><i class="fa fa-child" aria-hidden="true"></i></div>
+          <h3>Качество</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ipsam eos ab aliquam. Inventore cupiditate qui deleniti perspiciatis nostrum minus dignissimos voluptate quis veritatis nisi commodi ipsum, libero quo tempore!</p>
+        </div>
+        <div class="about_us__item">
+          <div class="about_us__icon"><i class="fa fa-check" aria-hidden="true"></i></div>
+          <h3>Качество</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ipsam eos ab aliquam. Inventore cupiditate qui deleniti perspiciatis nostrum minus dignissimos voluptate quis veritatis nisi commodi ipsum, libero quo tempore!</p>
+        </div>
+        <div class="about_us__item">
+          <div class="about_us__icon"><i class="fa fa-cloud" aria-hidden="true"></i></div>
+          <h3>Качество</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ipsam eos ab aliquam. Inventore cupiditate qui deleniti perspiciatis nostrum minus dignissimos voluptate quis veritatis nisi commodi ipsum, libero quo tempore!</p>
+        </div>
+      </div>
+    </section>
     <foodsection v-for="(section, index) in this.$store.state.titles"
                  :key="index"
                  :title="section.title"
