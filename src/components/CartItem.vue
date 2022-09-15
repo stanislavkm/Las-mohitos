@@ -18,7 +18,7 @@
           </div>
         </div>
         <button class="dlt_cartItem"
-        @click="deleteFromCart">X</button>
+        @click="deleteFromCart">x</button>
       </div>
       <hr>
       <div class="cartItem__count">

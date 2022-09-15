@@ -1,8 +1,8 @@
 <template>
   <header
-      :class="[{colored: scrollPosition > 40}, contactClass]">
+      :class="[{colored: scrollPosition > 40}, contactClass]" class="base_header">
     <div class="header_nav">
-      <router-link class="logo" to="/"><img src="../images/las-m_logo.png" alt=""></router-link>
+      <router-link class="logo" to="/#home"><img src="../images/las-m_logo.png" alt=""></router-link>
       <div class="menu_toggle"
            @click="showMobileMenu = !showMobileMenu"
            :class="[showMobileMenu ? '_active' :'', {coloredMenu: scrollPosition > 40}, whiteToggleMenu]">
@@ -26,7 +26,8 @@
     <router-view></router-view>
   </slot>
   <footer
-      :class="[{colored: scrollPosition > 40}, contactClass]">
+      :class="[{'d-none': scrollPosition > 40}, contactClass]">
+      <!-- :class="[{colored: scrollPosition > 40}, contactClass]"> -->
     <div class="footer_nav"
          :class="[{footer_align: scrollPosition > 40}, footer_btw]">
       <div class="about__tel">
@@ -125,7 +126,9 @@ document.body.classList.toggle('_lock', val);
 </script>
 
 <style>
-
+.d-none{
+  display: none;
+}
 .contactClass{
   background: linear-gradient(to right, #9fcf75, #55a93a);
   box-shadow: 0 5px 17px 0 rgb(34 60 80 / 15%);

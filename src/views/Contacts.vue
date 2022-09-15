@@ -38,7 +38,23 @@
       </section>
     </div>
   </CafeLayout>
-
+  <footer class="colored">
+    <div class="footer_nav">
+      <div class="about__tel">
+        <a class="coloredFootLink" href="tel:+79521820430" title="Звонок +7 (952) 182-04-30">
+          +7 (952) 182-04-30
+        </a>
+      </div>
+      <div class="about__mail">
+        <a class="coloredFootLink" href="https://www.instagram.com/lasmohitos_kafe/"  title="Instagram/Lasmohitos">
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+        </a>
+        <a class="coloredFootLink" href="https://wa.me/+79526794033" title="WhatsApp/Lasmohitos">
+          <i class="fa fa-whatsapp" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
 </template>
 
 <script>

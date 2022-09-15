@@ -54,9 +54,6 @@ export default {
 </script>
 
 <style>
-.food_section{
-  padding-bottom: 100px;
-}
 </style>
 
 
